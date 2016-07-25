@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"123");
     
     UIScrollView *scroll = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, 300)];
     scroll.backgroundColor = [UIColor redColor];
